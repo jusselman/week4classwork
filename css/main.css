@@ -1,0 +1,39 @@
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+body  {
+      text-align: center;
+}
+
+.box {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+
+/*THESE ARE THE MEDIA QUERIES*/
+
+@media (min-width: 600px) {
+    .green, .magenta {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {*/
+        .green, .magenta, .red, .cyan {
+            display: none;
+        }}
